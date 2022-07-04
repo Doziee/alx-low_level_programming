@@ -8,13 +8,11 @@
  */
 int main(void)
 {
-char c;
+char c, b;
 for (c = 'a'; c <= 'z'; c++)
-{
-if (c == 'q' || c == 'e')
-continue;
 putchar(c);
-}
+for (b = 'A'; b <= 'Z'; b++)
+putchar(b);
 putchar('\n');
 return (0);
 }
