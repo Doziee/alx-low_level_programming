@@ -10,7 +10,7 @@ while (n < 10)
 {
 l = 'a';
 while (l <= 'z')
-}
+{
 _putchar(l);
 l += 1;
 }
